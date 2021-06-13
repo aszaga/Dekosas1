@@ -1,0 +1,284 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js"></script>
+
+            <script src="https://system.picreel.com/js/cd.min.js"></script>
+        <script src="https://system.picreel.com/js/api.min.js"></script>
+        <script type="application/javascript">
+        var widgetsData = {"survey":false,"nanobar":false,"popup":{"cookie":false,"showType":[{"showType":"exit","showValue":0},{"showType":"timed","showValue":"2"}],"timeToWait":"0","viewsToShow":false,"showValue":0,"animation":"none","customShowTriggers":false,"isMobile":false,"isFullScreen":false,"tabSettings":{"style":"none","position":"top,right","text":"Sign Up!","bgColor":"#1b1e22","textColor":"#ffffff","image_url":"","image_size":"as-is"},"remove_prev_reminderbar":0},"reminderbar":false};    </script>
+            <style>
+            body,
+            html {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background: transparent;
+            }
+
+            .modal {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, .3);
+                -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, .3);
+                box-shadow: 0 3px 7px rgba(0, 0, 0, .3);
+                -webkit-background-clip: padding-box;
+                -moz-background-clip: padding-box;
+                background-clip: padding-box;
+                outline: 0;
+                position: relative;
+                z-index: 1050
+            }
+
+            .modal .modal-body {
+                height: 100%;
+                max-height: none;
+                padding: 0;
+                position: relative
+            }
+        </style>
+    </head>
+
+<body id="pcrl-frame-body" style="">
+    
+        <input type="hidden" class="picreel_tech_data" name="base_url" value="//app.picreel.com/">
+        <input type="hidden" class="picreel_tech_data" name="request_url" value="https://dekosas.com/co/">
+        <input type="hidden" class="picreel_tech_data" name="client_ip_address" value="181.58.39.96">
+        <input type="hidden" class="picreel_tech_data" name="client_country" value="Colombia">
+
+            <input type="hidden" class="picreel_tech_data" name="subscribe_url" value="//app.picreel.com/api/subscribe">
+        <input type="hidden" class="picreel_tech_data" name="action_url" value="https://app.picreel.com/api/action">
+        <input type="hidden" class="picreel_tech_data" name="editable" value="1">
+        <input type="hidden" class="picreel_tech_data" name="campaign_id" value="64413">
+        <input type="hidden" class="picreel_tech_data" name="hide_close_link" value="0">
+        <input type="hidden" class="picreel_tech_data" name="template_id" value="1579329">
+        <input type="hidden" class="picreel_tech_data" name="timer" value="">
+        <input type="hidden" class="picreel_tech_data" name="periodicity" value="86400">
+        <input type="hidden" class="picreel_tech_data" name="hide_powered_link" value="0">
+        <input type="hidden" class="picreel_tech_data" name="must_redirect" value="0">
+        <input type="hidden" class="picreel_tech_data" name="redirect_url" value="">
+
+                <script>
+            var event_stack = {"onPicAfterSubmit":{"action":"close","actions":["close","redirect"],"control":"submit","label":"onPicAfterSubmit","parameters":["Gracias por suscribirte. Te incluiremos en nuestra lista de novedades y ofertas."],"type":"global"}};
+        </script>
+        <div class="modal">
+            <div class="modal-body">
+                <style>*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+    width:600px;
+    height:440px;
+    position:relative;
+}
+
+.inner-container{
+    display: block;
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.inner-container .left-part{
+    width:300px;
+    min-height:440px;
+    height:100%;
+    display:block;
+    text-align: center;
+    overflow: hidden;
+  	position:absolute;
+    left:0;
+    top:0;
+    transform:translate(0,0);
+}
+
+.inner-container .left-part img{
+    height:100%;
+    position:absolute;
+    left:50%;
+    top:0;
+    transform:translate(-50%,0);
+}
+
+.inner-container .right-part{
+    width:300px;
+    display:block;
+    float:right;
+    padding:0 30px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #333333;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #333333;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #333333;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #333333;
+}
+
+.template-inputs{
+    margin-top: 0;
+}
+
+.container input{
+    display               : inline-block;
+    text-align            : center;
+    border-radius         : 0;
+    font-size             : 14px;
+    color                 : #000;
+    font-weight           : 400;
+    margin                : 5px auto 0;
+    border                : 2px solid #000;
+    padding               : 0px 10px;
+    background:#fff;
+    width         : 100%;
+    height        : 53px;
+}
+
+.template-inputs input:first-child{
+    margin-top: 0;
+}
+
+.container .text-line-1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    margin: 50px 0 0 0;
+    color: #000;
+    padding:0;
+}
+
+.container .text-line-2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 25px 0 30px 0;
+    color: #a3a3a3;
+    padding:0;
+}
+
+.container [data-em="button"]{
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom:0;
+    color: #fff;
+    background-color: #000;
+    transition: all 100ms;
+    position:relative;
+    border:0;
+    outline:none;
+    cursor:pointer;
+    height:53px;
+}
+
+.container [data-em="button"]:active{
+    top:2px;
+}
+
+.container .close-link{
+    font-size: 13px;
+    line-height:14px;
+    font-weight:700;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    margin-top:36px;
+    margin-bottom: 30px;
+}
+
+img[src=""] {
+   display: none;
+}
+
+.close-x {
+    color: #000;
+    position: absolute;
+    top: 15px;
+    font-size: 23px;
+    display: inline;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 14px;
+    right: 15px;
+    height: 14px;
+    overflow: hidden;
+}
+
+.text-color{
+    color:#a3a3a3;
+}
+
+#pcrl-frame-body .container .text-line-1 {
+	color: #c20000;
+}
+
+#pcrl-frame-body .container .text-color {
+	color: #030303;
+}
+</style><!-- Important!!! Insert your HTML inside div ".container". 
+     Please, do not delete it and such classes for elements like "submit", "redirect", "close". 
+     Template will work uncorrect or not work at all. You can do it for your own risk. -->
+<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<div class="container" data-template-type="collect-email-6">
+    <div data-em="modal-close-link" class="close close-full-width close-x" id="close-link-x">×</div>
+    <div class="inner-container">
+        <div class="left-part product-image">
+            <img src="https://system.picreel.com/img/theme_images/f4adadf4a248bf297aeb38e8f6a7a9687a054a3f.jpg">
+        </div>
+        <div class="right-part">
+            <div data-em="text-line-1" class="text-line-1">ESTO ES ESPECIAL<br></div>
+            <div data-em="text-line-2" class="text-line-2 text-color">Suscríbete y entérate de todas<br> las ofertas que tenemos a diario  en nuestra tienda.</div>
+            
+            <div class="template-inputs">
+                <input name="email" type="email" class="" placeholder="Ingresa tu email" data-required="">
+            </div>
+    
+            <button data-em="button" type="submit" class="submit btn-bg-color" id="submit-button">SUSCRIBIRME</button>
+            <a class="close close-link" data-em="modal-close-link" id="close-link">NO GRACIAS</a>
+        </div>
+    </div>
+</div>
+<input type="hidden" name="hide_close_frame" value="1"><!-- Required input. Please, do not delete -->
+<input type="hidden" name="popup_size" value="{'width':'600', 'height':'440'}">            </div>
+        </div>
+    
+
+</body></html>

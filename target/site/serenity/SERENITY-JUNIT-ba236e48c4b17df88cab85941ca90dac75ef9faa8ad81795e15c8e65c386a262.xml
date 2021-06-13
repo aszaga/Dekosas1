@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="HU-001 Buscador Dekosas" skipped="0" tests="2" time="0.67" timestamp="2021-06-09 09:26:44"><testcase name="Buscar producto en la pagina"><error message="Arity mismatch: Step Definition 'stepDefinitions.BuscadorStepDefinitions.meUbicoEnLaPaginaDeDekosasHttpsDekosasComCo(String) in file:/C:/Users/ASTRID/OneDrive/Documentos/WorkSpace%20de%20Ecilpse/MiPrimerSerenity/bin/test/' with pattern [^me ubico en la pagina de Dekosas https://dekosas\.com/co/$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. &#10;Step text: me ubico en la pagina de Dekosas https://dekosas.com/co/" type="cucumber.runtime.CucumberException">Arity mismatch: Step Definition 'stepDefinitions.BuscadorStepDefinitions.meUbicoEnLaPaginaDeDekosasHttpsDekosasComCo(String) in file:/C:/Users/ASTRID/OneDrive/Documentos/WorkSpace%20de%20Ecilpse/MiPrimerSerenity/bin/test/' with pattern [^me ubico en la pagina de Dekosas https://dekosas\.com/co/$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step text: me ubico en la pagina de Dekosas https://dekosas.com/co/</error><system-err>Arity mismatch: Step Definition 'stepDefinitions.BuscadorStepDefinitions.meUbicoEnLaPaginaDeDekosasHttpsDekosasComCo(String) in file:/C:/Users/ASTRID/OneDrive/Documentos/WorkSpace%20de%20Ecilpse/MiPrimerSerenity/bin/test/' with pattern [^me ubico en la pagina de Dekosas https://dekosas\.com/co/$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step text: me ubico en la pagina de Dekosas https://dekosas.com/co/&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+</system-err></testcase></testsuite>
