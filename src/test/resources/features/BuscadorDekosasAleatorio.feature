@@ -1,4 +1,4 @@
-Feature: HU001
+Feature: HU-002 Buscador Aleatorio
 
   Scenario Outline: <Escenario>
     Given me encuentro en la pagina de Dekosas con la url <Url>

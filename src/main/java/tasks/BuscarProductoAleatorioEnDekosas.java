@@ -9,9 +9,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import driver.SeleniumWebDriver;
+import interactions.CambiarDeFrame;
 import interactions.ClicProductoAleatorio;
 import interactions.Esperar;
-import interactions.IframeDekosas;
+import interactions.VolverALaVentana;
 import io.vavr.control.Try;
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.steps.Instrumented;
@@ -30,13 +31,8 @@ public class BuscarProductoAleatorioEnDekosas  implements Task {
 		actor.attemptsTo(
 				Click.on(DekosasUserInterface.BTN_CATEGORIA_LAMPARA_DEKOSAS),
 				
-				
 				Click.on(DekosasUserInterface.BTN_ESTILO_DEKOSAS),
-				Esperar.estosSegundos(60),
-				
-				//Switch.toFrame(0),
-				Click.on(DekosasUserInterface.BTN_IFRAME_DEKOSAS),
-				Esperar.estosSegundos(60),
+					
 				ClicProductoAleatorio.on()
 				);	 
 		
@@ -48,7 +44,7 @@ public class BuscarProductoAleatorioEnDekosas  implements Task {
 	
 
 		
-//#picreel-frame
+
 
 
 

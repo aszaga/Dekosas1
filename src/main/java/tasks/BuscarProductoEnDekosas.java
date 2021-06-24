@@ -11,8 +11,11 @@ import net.serenitybdd.screenplay.actions.EnterValue;
 import net.serenitybdd.screenplay.waits.Wait;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import userInterface.DekosasUserInterface;
+import variablesGlobales.VariablesGlobales;
+
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.*;
 
+import org.apache.xalan.xsltc.compiler.sym;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 
@@ -28,14 +31,20 @@ public class BuscarProductoEnDekosas implements Task {
 
 	@Override
 	public <T extends Actor> void performAs(T actor) {
+		System.out.print(producto);
 		actor.attemptsTo(
 				
-				Enter.theValue(producto).into(DekosasUserInterface.TXT_BUSCADOR_DEKOSAS).thenHit(Keys.ENTER));    
+				Enter.theValue(producto).into(DekosasUserInterface.TXT_BUSCADOR_DEKOSAS).thenHit(Keys.ENTER),   
+			
 				
-				Click.on(DekosasUserInterface.BTN_BUSCADOR_DEKOSAS
+				Click.on(DekosasUserInterface.BTN_PRODUCTO_DEKOSAS.of(producto))
+								
 				);
 				JavascriptExecutor jse = (JavascriptExecutor)SeleniumWebDriver.driver;
 				jse.executeScript("window.scrollBy(0,250)");
+				VariablesGlobales.nombreProductoAleatorio=DekosasUserInterface.LBL_PRODUCTO_DEKOSAS.of(producto).resolveFor(actor).getText();
+				
+			
 	}
 	
 

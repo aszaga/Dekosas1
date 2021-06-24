@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"HU-001 Buscador Dekosas","Buscar el producto en el buscador Dekosas","SUCCESS","2021-06-17T11:02:12.194-05:00[America/Bogota]","0.0","115.26"
+"HU-002 Buscador Aleatorio","Buscar un producto aleatorio en Dekosas exitoso","FAILURE","2021-06-17T11:00:12.101-05:00[America/Bogota]","0.0","21.22"
+"HU-003 Buscador Dekosas Background",": Buscar un producto en el buscador","SUCCESS","2021-06-17T11:00:38.459-05:00[America/Bogota]","0.0","46.69"
+"HU-004 Prueba exitosa y errada",": Buscar un producto en el buscador fallido","FAILURE","2021-06-17T11:01:27.177-05:00[America/Bogota]","0.0","21.06"
+"HU-004 Prueba exitosa y errada",": Buscar un producto en el buscador exitoso","SUCCESS","2021-06-17T11:01:49.287-05:00[America/Bogota]","0.0","21.5"

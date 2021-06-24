@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="HU-002 Buscador Aleatorio" skipped="0" tests="1" time="21.22" timestamp="2021-06-17 11:00:12"><testcase name="Buscar un producto aleatorio en Dekosas exitoso"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+tasks.BuscarProductoAleatorioEnDekosas.performAs(BuscarProductoAleatorioEnDekosas.java:31)&#13;
+stepDefinitions.BuscadorDekosasAleatorioStepDefinitions.buscoUnProductoAleatorioEnLaPagina(BuscadorDekosasAleatorioStepDefinitions.java:26)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

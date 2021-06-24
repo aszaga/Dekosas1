@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"HU-001 Buscador Dekosas","Buscar el producto en el buscador Dekosas","SUCCESS","2021-06-17T11:02:12.194-05:00[America/Bogota]","0.0","115.26"
+"HU-003 Buscador Dekosas Background",": Buscar un producto en el buscador","SUCCESS","2021-06-17T11:00:38.459-05:00[America/Bogota]","0.0","46.69"
+"HU-004 Prueba exitosa y errada",": Buscar un producto en el buscador exitoso","SUCCESS","2021-06-17T11:01:49.287-05:00[America/Bogota]","0.0","21.5"

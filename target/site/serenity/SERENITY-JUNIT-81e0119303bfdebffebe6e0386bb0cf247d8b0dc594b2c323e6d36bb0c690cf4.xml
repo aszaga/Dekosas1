@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="HU-004 Prueba exitosa y errada" skipped="0" tests="2" time="42.55" timestamp="2021-06-17 11:01:27"><testcase name=": Buscar un producto en el buscador fallido"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+tasks.BuscarProductoEnDekosas.performAs(BuscarProductoEnDekosas.java:35)&#13;
+stepDefinitions.BuscadorDekosasFalloStepDefinitions.deseoUnProductoDelBuscador(BuscadorDekosasFalloStepDefinitions.java:31)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name=": Buscar un producto en el buscador exitoso"/></testsuite>
